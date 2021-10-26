@@ -1,0 +1,24 @@
+.button, input[type="submit"], button {
+    position: relative;
+    display: inline-block;
+    /*padding-front: 0; This property does not exist in CSS, so i change it to the padding-right property*/
+    padding-right: 0px;
+    margin: 0px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    overflow: visible;
+    /*bgcolor: red; This property does not exist in CSS, so i change it to the background-color property*/
+    background-color: red; 
+    text-transform: uppercase;
+    /*font-color: #fZb034; This property does not exist in CSS, so i change it to the color property*/
+    color: "#fZb034";
+    font-size: 18px;
+    font-family: 'FuturaBT-Book';
+    line-height: 20px;
+    height: 20px;
+    -webkit-transition: color 0.2s ease-in-out;
+   transition: color 0.2s ease-in-out;
+ }
+ 
